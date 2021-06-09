@@ -62,8 +62,13 @@ header span {
   font-size: 17px;
   display: inline;
   float: right;
-  margin-top: 25px;
   margin-right: 10px;
+}
+
+header img {
+  margin: 0;
+  display: inline;
+  float: left;
 }
 
 .nav-container {
@@ -133,6 +138,24 @@ header span {
 }
 #menu1 .sub li:not(:first-child):hover {
   background: peachpuff;
+}
+
+.main-title {
+  margin-right: 900px;
+}
+.main-title1 {
+  margin-top: 150px;
+}
+.main-title1 span {
+  font-size: 37px;
+  font-weight: 800;
+  float: left;
+  border-bottom: 3px dashed darkorange;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .scroll {
@@ -206,10 +229,11 @@ header span {
   margin-left: 50px;
   margin-top: 15px;
 }
-.review {
+.sub-title {
   text-align: start;
   font-size: 20px;
   font-weight: 800;
+  margin-top: 80px;
 }
 .review_img {
   width: 1800px;
@@ -219,6 +243,49 @@ header span {
 .review_img img {
   width: 200px;
   margin: 7px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-div {
+  display: flex;
+  width: 100%;
+  background: darkorange;
+  padding: 5px 20px;
+  justify-content: space-between;
+  box-shadow: -1px -1px 10px black;
+}
+.footer-title {
+  font-size: 25px;
+  color: white;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.price {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+#button {
+  margin-top: 5px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  font-size: 21px;
+  font-weight: 700;
 }
 
 #no-mobile {
