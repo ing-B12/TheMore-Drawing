@@ -220,3 +220,22 @@ header span {
   width: 200px;
   margin: 7px;
 }
+
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  #no-mobile {
+    display: none;
+  }
+}
