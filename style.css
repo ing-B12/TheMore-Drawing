@@ -63,6 +63,7 @@ header span {
   display: inline;
   float: right;
   margin-right: 10px;
+  margin-top: 30px;
 }
 
 header img {
@@ -152,10 +153,7 @@ header img {
   float: left;
   border-bottom: 3px dashed darkorange;
   padding-bottom: 10px;
-  margin-bottom: 20px;
-  width: 100%;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-bottom: 40px;
 }
 
 .scroll {
@@ -231,9 +229,11 @@ header img {
 }
 .sub-title {
   text-align: start;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 800;
-  margin-top: 80px;
+  margin-right: 900px;
+  margin-top: 60px;
+  margin-left: 30px;
 }
 .review_img {
   width: 1800px;
